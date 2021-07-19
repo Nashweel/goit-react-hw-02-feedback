@@ -36,7 +36,7 @@ class App extends React.Component {
     const positivePercentage = this.countPostivePercentage();
     return (
       <div>
-        <Section title="Plese leave your feedback">
+        <Section title="Please leave your feedback">
           <FeedbackOptions
             options={CONSTANS_FEEDBACK}
             onLeaveFeedback={this.handleFeedback}
